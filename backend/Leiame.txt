@@ -1,0 +1,25 @@
+As entradas da API se encontram em:
+
+http://educacao.dadosabertosbr.org/api
+
+
+Catálogo das Escolas
+
+https://inepdata.inep.gov.br/analytics/saw.dll?Dashboard&NQUser=inepdata&NQPassword=Inep2014&PortalPath=%2Fshared%2FCenso%20da%20Educa%C3%A7%C3%A3o%20B%C3%A1sica%2F_portal%2FCat%C3%A1logo%20de%20Escolas&Page=Pr%C3%A9-Lista%20das%20Escolas
+
+
+referência de desenvolvimento:
+
+https://blog.logrocket.com/how-to-set-up-node-typescript-express/
+
+
+RETORNOS DA API
+
+lista de cidades por estado:
+http://educacao.dadosabertosbr.org/api/cidades/sp
+
+passa o id da escola para buscar maiores detalhes:
+http://educacao.dadosabertosbr.org/api/escola/35055682
+
+busca avançada de escolas por código de município
+http://educacao.dadosabertosbr.org/api/escolas/buscaavancada?cidade=3550308
